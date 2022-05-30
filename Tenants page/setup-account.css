@@ -1,0 +1,18 @@
+#main .main {
+  flex-direction: column;
+}
+.text-info {
+  margin-top: 18vmin;
+}
+/* @media only screen and (min-width: 1200px) {
+  form {
+    padding: 30px 20px;
+  }
+  #main .main {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #main .login-form {
+    min-height: 400px;
+  }
+} */

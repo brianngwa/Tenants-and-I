@@ -1,0 +1,103 @@
+form {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+/* Main Section */
+#main .login-form {
+  max-width: 700px;
+}
+#main .main {
+  flex-direction: column-reverse;
+  padding: 0 30px;
+  /* margin-top: 30px; */
+  justify-content: space-evenly;
+}
+#main .login-form {
+  width: 100%;
+  padding: 10px;
+  margin: 100px 10px 10px 10px;
+  border-radius: 4px;
+  background-color: #3b3636cb;
+}
+#main .login-form a {
+  color: white;
+  font-weight: lighter;
+  font-size: 1rem;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+}
+#main .login-form h3 {
+  color: white;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+#main .login-form span {
+  color: rgba(0, 0, 0, 0.842);
+  text-decoration-line: underline;
+}
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgba(20, 19, 19, 0.774);
+  border-radius: 4px;
+  transition: 0.3s ease border;
+}
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+  outline: none;
+  border: 3px solid rgb(48, 161, 206);
+  /* border: 3px solid rgb(150, 126, 131); */
+  /* background-color: rgba(235, 224, 226, 0.342); */
+}
+input[type="submit"] {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: rgb(48, 161, 206);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease filter;
+  filter: grayscale(100%);
+}
+form input {
+  font-family: inherit;
+}
+input[type="submit"]:hover {
+  filter: grayscale(0);
+}
+input[name="search"] {
+  padding-left: 40px;
+  background-image: url("https://img.icons8.com/material-two-tone/24/000000/search.png");
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+}
+
+/* End of Main Section */
+/* Media Query for Tablet */
+@media only screen and (min-width: 768px) {
+}
+/* End of Media Query for Tablet */
+/* Media query for desktop */
+@media only screen and (min-width: 1200px) {
+  form {
+    padding: 30px 20px;
+  }
+  #main .main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #main .login-form {
+    min-height: 400px;
+  }
+}
+/* End of media query for desktop */

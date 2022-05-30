@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css file -->
+     <!-- <link rel="stylesheet" type="text/css" href="{% static 'apart/CSS/main.css' %}"> -->
+    <link rel="stylesheet" href="Home.css">
+
+    <title>Home Page</title>
+</head>
+<body>
+    
+<!-- Header section -->
+<section id="header">
+    <div class="header wrapper">
+        <div class="nav-bar"> 
+            <div class="brand">
+                <a href="#"><h1> <span>Tenants and I</span> </h1></a>
+            </div>
+            <div class="nav-list">
+                <div class="hamburger"><div class="bar"></div></div>
+                <ul>
+                    <li><a href="#main" data-after=Home>Home</a>
+                    </li>
+                    <li><a href="Log-in.html#main" data-after="Login"> Login</a></li>
+                    <li><a href="./create-account.html" data-after= "Create Account"> Create Account</a></li>
+                    <li><a href="#about" data-after="About US">About us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Header section -->
+<!-- Main Section -->
+<section id="main">
+    <div class="main wrapper">
+        <div class="welcome">
+            <h1>Welcome to <span>Tenants and I</span></h1>
+            <h1>A modern real-estate</h1>
+            <h1>Management system</h1>
+            <a href="#about" type="button" class="cta">About Us</a>
+        </div>
+    </section>
+ <!-- End of Main section -->
+
+ <section id="about">
+        <div class="about wrapper">
+            <div class="content">
+            <h1>About US</h1>
+            <p>We are a team of developers from Cameroon</p>
+            </div>
+            <div class="card">
+                <div class="card-item">
+                <div class="card-top">
+                <img src="images/avatar1.jpg" alt="image1" width="450px" height ="310px" >
+                </div>
+                <div class="card-bottom">
+                    <h2>Brian Ngwa</h2>
+                    <p>Software designer</p>
+                </div>
+            </div>
+
+            <div class="card-item">
+                <div class="card-top">
+                <img src="images/avatar1.jpg" alt="image1">
+                    </div>
+                    <div class="card-bottom">
+                        <h2>Christian Mbakam</h2>
+                        <p>Programmer</p>
+                    </div>
+            </div>
+            <div class="card-item">
+                    <div class="card-top">
+                        <img src="images/avatar1.jpg" alt="image1">
+                        </div>
+                        <div class="card-bottom">
+                            <h2>Joel Bassanguen</h2>
+                            <p>Programmer</p>
+                        </div>
+            </div>
+            </div>
+        </div>
+</section>
+<!-- Footer Section -->
+<section id="footer">
+    <!-- <div class="footer wrapper"> -->
+    <div class="footer">
+    <h1><span>Tenants and I</span></h1>
+    <p>Copyright © 2021 FNP. All rights reserved</p>
+</div>
+<!-- </div> -->
+</section>
+<!-- End Footer Section -->
+ <!-- js file -->
+     <!-- <script src = "{% static 'apart/CSS/main.css' %}"> -->
+<script src="script.js"></script>
+
+</body>
+
+</html>
